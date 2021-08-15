@@ -1,0 +1,96 @@
+/* цвет текста основной #212121
+цвет текста вторичный rgba(117, 117, 117, 1)
+Цвет акцента #2196F3
+#FFFFFF 
+цвет фона #E5E5E5
+цвет фона вторичный #2F303A
+
+*/
+:root {
+  --primary-text-color: rgba(117, 117, 117, 1);
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--title-text-color);
+}
+
+li {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--title-text-color);
+}
+.link:hover,
+:focus {
+  color: var(--accent-color);
+}
+
+/*-------------- logo------------ */
+.logo {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #000000;
+}
+
+.logo:hover,
+:focus {
+  color: var(--accent-color);
+}
+
+.logo-accent {
+  color: var(--accent-color);
+}
+
+/*------------- header navigate----------- */
+
+.navigate-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.contacts-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+/*----------------- heroes--------------- */
+
+.button-order {
+  font-family: inherit;
+}
+
+/*----------------- footer--------------- */
+
+footer {
+  background-color: #2f303a;
+}
+
+.address-item {
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
