@@ -36,14 +36,14 @@ ul {
   text-decoration: none;
   color: var(--title-text-color);
 }
-.link:hover,
+/* .link:hover,
 :focus {
   color: var(--accent-color);
-}
+} */
 
 /*-------------- logo------------ */
 .logo {
-  font-family: Raleway;
+  font-family: 'Raleway';
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -68,6 +68,11 @@ ul {
   letter-spacing: 0.02em;
 }
 
+.header-nav:hover,
+:focus {
+  color: var(--accent-color);
+}
+
 .contacts-item {
   font-weight: 500;
   font-size: 14px;
@@ -75,13 +80,52 @@ ul {
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
+.contacts-item:hover,
+:focus {
+  color: var(--accent-color);
+}
 
 /*----------------- heroes--------------- */
+.heroes {
+  background-color: #2f303a;
+  color: #ffffff;
+}
+.main-title {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
 
 .button-order {
   font-family: inherit;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: var(--accent-color);
+  cursor: pointer;
 }
 
+/*----------------- team------------------ */
+.team {
+  background-color: #f5f4fa;
+}
+
+/*-------------- portfolio навигация------------ */
+.portfolio-nav-button {
+  background-color: #f5f4fa;
+  cursor: pointer;
+}
+
+.portfolio-nav-button:hover,
+:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
 /*----------------- footer--------------- */
 
 footer {
@@ -95,4 +139,16 @@ footer {
   line-height: 2;
   letter-spacing: 0.03em;
   color: #ffffff;
+}
+.logo-footer {
+  color: #ffffff;
+  font-family: 'Raleway';
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.address-item.link:hover,
+:focus {
+  color: var(--accent-color);
 }
