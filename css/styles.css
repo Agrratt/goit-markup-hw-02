@@ -13,7 +13,7 @@
 }
 
 body {
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -28,8 +28,8 @@ h4 {
   color: var(--title-text-color);
 }
 
-li {
-  list-style-type: none;
+ul {
+  list-style: none;
 }
 
 .link {
@@ -61,7 +61,7 @@ li {
 
 /*------------- header navigate----------- */
 
-.navigate-item {
+.header-item {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -87,7 +87,9 @@ li {
 footer {
   background-color: #2f303a;
 }
-
+.footer-addres {
+  font-style: normal;
+}
 .address-item {
   font-size: 14px;
   line-height: 2;
