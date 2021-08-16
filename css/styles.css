@@ -51,7 +51,7 @@ ul {
 }
 
 .logo:hover,
-:focus {
+.logo:focus {
   color: var(--accent-color);
 }
 
@@ -69,7 +69,7 @@ ul {
 }
 
 .header-nav:hover,
-:focus {
+.header-nav:focus {
   color: var(--accent-color);
 }
 
@@ -81,7 +81,7 @@ ul {
   color: var(--primary-text-color);
 }
 .contacts-item:hover,
-:focus {
+.contacts-item:focus {
   color: var(--accent-color);
 }
 
@@ -110,21 +110,62 @@ ul {
   cursor: pointer;
 }
 
+/*----------- Чем мы занимаемся,team ------------ */
+.doing-title,
+.team-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
 /*----------------- team------------------ */
 .team {
   background-color: #f5f4fa;
 }
 
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.team-work {
+  font-size: 16px;
+  line-height: 1.19;
+}
+
 /*-------------- portfolio навигация------------ */
+.header-list .active {
+  color: var(--accent-color);
+}
+
 .portfolio-nav-button {
   background-color: #f5f4fa;
   cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+
+  text-align: center;
 }
 
 .portfolio-nav-button:hover,
-:focus {
+.portfolio-nav-button:focus {
   color: #ffffff;
   background-color: var(--accent-color);
+}
+
+/*-------------- portfolio проекты------------ */
+.project-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+
+  letter-spacing: 0.06em;
+}
+.project-type {
+  font-size: 16px;
+  line-height: 1.88;
 }
 /*----------------- footer--------------- */
 
@@ -138,6 +179,12 @@ footer {
   font-size: 14px;
   line-height: 2;
   letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.address-item-map {
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 0.03em;
   color: #ffffff;
 }
 .logo-footer {
@@ -148,7 +195,18 @@ footer {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
+
+.logo-footer:hover,
+.logo-footer:focus {
+  color: var(--accent-color);
+}
+
+.address-item-map:hover,
+.address-item-map:focus {
+  color: var(--accent-color);
+}
+
 .address-item.link:hover,
-:focus {
+.address-item.link:focus {
   color: var(--accent-color);
 }
